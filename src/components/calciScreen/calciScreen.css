@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+.centre{
+    background-color: rgb(35, 101, 101);
+    border-radius: 15px;
+    height: 81%;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app-title{
+    position:relative;
+    width: fit-content;
+    left: 15%;
+    margin-top: 2%;
+}
+
+p{
+    margin-top: 7%;
+    color: burlywood;
+    font-size: 15px;
+    font-weight: 590;
+    font-family: 'Play', sans-serif;
+}
+
+.input-Screen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    position: relative;
+    margin: 7px;
+    padding: 28px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text-area{
+    text-align: right;
+}
+
+

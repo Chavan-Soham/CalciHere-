@@ -1,0 +1,21 @@
+.operations{
+    display: flex;
+    flex-direction:row;
+    padding: 4%;
+    gap: 15px;
+}
+
+
+button{
+    height: 52px;
+    width: 52px;
+}
+
+#op-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
