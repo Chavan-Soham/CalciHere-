@@ -20,7 +20,7 @@ export function CalciScreen(){
                 <p>CalciHere!</p>
             </div>
             <div className='input-Screen'>
-                <input type='text' id='text-area' value={display}/>
+                <input type='text' id='text-area' value={display} readOnly/>
             </div>
             <AllOpsBtns handleOperator={(op) => handleOperator(op, setOp, setDisplay)}/>
             <AllNumbers handleClick={(number) => handleClick(number, setDisplay)} handleMain={()=>handleMain(display, setDisplay)}/>
